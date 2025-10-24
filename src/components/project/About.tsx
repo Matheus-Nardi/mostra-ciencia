@@ -47,7 +47,7 @@ export default function AboutEvent() {
                 além de incentivar a integração entre estudantes, docentes e a comunidade externa.
               </p>
               <p className="text-sm sm:text-base md:text-lg font-poppins pl-4 py-2">
-               Com o tema central <strong className="text-primary">"Planeta Água do Araguaia ao Tocantins: Saberes e Ciência em Defesa da Vida e da Sustentabilidade"</strong>, voltado à ciência, tecnologia e sustentabilidade, a mostra conta com oficinas, mesa-redonda, apresentações de trabalhos e premiação final,
+               Com o tema central <strong className="text-primary">Planeta Água do Araguaia ao Tocantins: Saberes e Ciência em Defesa da Vida e da Sustentabilidade</strong>, voltado à ciência, tecnologia e sustentabilidade, a mostra conta com oficinas, mesa-redonda, apresentações de trabalhos e premiação final,
                 oferecendo mais de 24 horas de programação científica no Câmpus Augustinópolis.
               </p>
             </div>
