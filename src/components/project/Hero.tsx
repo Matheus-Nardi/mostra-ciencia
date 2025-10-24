@@ -65,19 +65,19 @@ export default function Hero() {
 
     const mobileSlides: Slide[] = [
         // Vídeo apenas para mobile 
-        { type: 'image', src: 'https://images.pexels.com/photos/997134/pexels-photo-997134.jpeg', alt: 'Drone (mobile)' },
+       
+        { type: 'image', src: 'https://images.pexels.com/photos/3825578/pexels-photo-3825578.jpeg', alt: 'Ciência (mobile)' },
+          { type: 'image', src: ' https://images.pexels.com/photos/4145356/pexels-photo-4145356.jpeg', alt: ' Criança no vr (mobile)' },
         { type: 'video', src: 'https://www.pexels.com/pt-br/download/video/17953524/', alt: 'Vídeo drone (mobile)', poster: 'https://images.pexels.com/photos/997134/pexels-photo-997134.jpeg' },
         { type: 'image', src: 'https://images.unsplash.com/photo-1560260240-c6ef90a163a4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1331', alt: 'Oceano' },
         { type: 'image', src: 'https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg', alt: 'Imagem sobre o evento' },
     ];
 
     const desktopSlides: Slide[] = [
-        // Vídeo drone plantação para desktop
+        { type: 'image', src: 'https://images.pexels.com/photos/2399033/pexels-photo-2399033.jpeg', alt: 'Apresentacao trabalhos' },
         { type: 'image', src: 'https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg', alt: 'Imagem sobre o evento' },
-        { type: 'video', src: 'https://www.pexels.com/pt-br/download/video/5608087/', alt: 'Vídeo drone plantação', poster: '' },
-        { type: 'image', src: 'https://plus.unsplash.com/premium_photo-1664475382326-3dc5510e4ff9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1169', alt: 'Drone sobre plantação' },
         { type: 'image', src: 'https://images.unsplash.com/photo-1560260240-c6ef90a163a4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1331', alt: 'Oceano' },
-        { type: 'image', src: 'https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg', alt: 'Programação' },
+        { type: 'image', src: 'https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg', alt: 'Muda de planta' },
     ];
 
     const slides = isMobile ? mobileSlides : desktopSlides;

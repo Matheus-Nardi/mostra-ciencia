@@ -150,13 +150,9 @@ const getEventColors = (eventName: string) => {
   };
 };
 
-// Mapeia datas em português para formato DD/MM
 const dateMapping: Record<string, { date: string; dayOfWeek: string }> = {
-  "2025-10-20": { date: "20/10", dayOfWeek: "Segunda-feira" },
-  "2025-10-21": { date: "21/10", dayOfWeek: "Terça-feira" },
-  "2025-10-22": { date: "22/10", dayOfWeek: "Quarta-feira" },
-  "2025-10-23": { date: "23/10", dayOfWeek: "Quinta-feira" },
-  "2025-10-24": { date: "24/10", dayOfWeek: "Sexta-feira" },
+  "2025-10-29": { date: "29/10", dayOfWeek: "Segunda-feira" },
+  "2025-10-30": { date: "30/10", dayOfWeek: "Terça-feira" },
 };
 
 export default function Schedule() {
@@ -176,14 +172,6 @@ export default function Schedule() {
   const schedule: DaySchedule[] = useMemo(() => {
     const transformedSchedule: DaySchedule[] = [];
 
-
-    const allDaysEvents: Record<string, ScheduleActivity[]> = {};
-    if (scheduleData["Todos os dias"]) {
-      Object.entries(scheduleData["Todos os dias"]).forEach(([eventName, activities]) => {
-        allDaysEvents[eventName] = activities as ScheduleActivity[];
-      });
-    }
-
     Object.entries(scheduleData).forEach(([dateKey, dayData]) => {
       if (dateKey === "Todos os dias") return;
 
@@ -196,15 +184,9 @@ export default function Schedule() {
         if (!eventsByName[eventName]) {
           eventsByName[eventName] = [];
         }
-        eventsByName[eventName].push(...(activities as ScheduleActivity[]));
+        eventsByName[eventName].push(activities as ScheduleActivity);
       });
 
-      Object.entries(allDaysEvents).forEach(([eventName, activities]) => {
-        if (!eventsByName[eventName]) {
-          eventsByName[eventName] = [];
-        }
-        eventsByName[eventName].push(...activities);
-      });
 
       const events: Event[] = [];
       let eventIdCounter = 1;
@@ -296,23 +278,6 @@ export default function Schedule() {
               <span>Atualizado em: {formatLastUpdate(scheduleData.lastUpdate)}</span>
             </p>
             <div className="mt-4 flex items-center gap-2 justify-center lg:justify-start" role="group" aria-label="Alternar visualização da programação">
-              <Button
-                variant={viewMode === "grouped" ? "default" : "outline"}
-                size="sm"
-                onClick={() => setViewMode("grouped")}
-                aria-pressed={viewMode === "grouped"}
-                className={`
-      transition-all duration-300 rounded-xl
-      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2
-      ${viewMode === "grouped"
-                    ? 'shadow-md'
-                    : 'text-primary border-primary hover:border-primary hover:bg-primary/10 hover:shadow-sm hover:text-primary'
-                  }
-    `}
-              >
-                Por eixo
-              </Button>
-
               <Button
                 variant={viewMode === "daily" ? "default" : "outline"}
                 size="sm"

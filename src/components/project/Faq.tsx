@@ -26,24 +26,17 @@ export default function Faq() {
             id: 2,
             question: "Quem pode participar do evento ?",
             awnser:
-                "O evento é aberto a pesquisadores, professores, estudantes de pós-graduação, profissionais da indústria, empreendedores, gestores de inovação, representantes de órgãos públicos, formuladores de políticas públicas e demais interessados em inovação, ciência e tecnologia",
+                "O evento é aberto a pesquisadores, professores, estudantes de pós-graduação, profissionais da indústria, empreendedores, gestores de inovação, representantes de órgãos públicos, formuladores de políticas públicas e demais interessados em ciência e tecnologia",
         },
         {
             id: 3,
             question: "O evento será presencial ou online ?",
-            awnser:
-                "O evento conta com programações presencias no campus da UNTINS - PALMAS e também com programções remotas",
+            awnser: "O evento conta com programações presencias no campus da UNTINS - Augustinópolis e também com programações remotas",
         },
         {
             id: 4,
             question: "Haverá emissão de certificados ?",
             awnser: "Sim, todos as atividades programadas contam com emissão de certifcados",
-        },
-
-        {
-            id: 5,
-            question: "Haverá alimentação no evento presencial?",
-            awnser: "Sim, o evento presencial contará com a presença de food trucks.",
         },
     ]
 
@@ -57,15 +50,15 @@ export default function Faq() {
                             Perguntas frequentes
                         </h2>
                         <div className="flex justify-center">
-                            <motion.div 
+                            <motion.div
                                 className="h-1 bg-primary rounded-full"
                                 initial={{ width: "4rem" }}
-                                animate={{ 
-                                    width: isHeaderInView ? "12rem" : "4rem" 
+                                animate={{
+                                    width: isHeaderInView ? "12rem" : "4rem"
                                 }}
-                                transition={{ 
-                                    duration: 0.8, 
-                                    ease: "easeInOut" 
+                                transition={{
+                                    duration: 0.8,
+                                    ease: "easeInOut"
                                 }}
                                 aria-hidden="true"
                             />
@@ -79,12 +72,12 @@ export default function Faq() {
                                 value={`item-${item.id}`}
                                 className="bg-white border-2 border-primary/10 hover:border-primary/30 focus-within:border-primary/30 rounded-xl px-4 sm:px-6 shadow-sm hover:shadow-md focus-within:shadow-md transition-all duration-300"
                             >
-                                <AccordionTrigger 
+                                <AccordionTrigger
                                     className="text-left text-sm sm:text-base md:text-lg font-semibold hover:text-primary focus-visible:text-primary hover:no-underline py-4 sm:py-6 group focus-visible:outline-none [&[data-state=open]]:text-primary"
                                     aria-label={item.question}
                                 >
                                     <span className="flex items-start gap-2 sm:gap-3 w-full pr-4">
-                                        <span 
+                                        <span
                                             className="flex-shrink-0 w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-primary flex items-center justify-center text-white text-xs sm:text-sm font-bold mt-0.5"
                                             aria-hidden="true"
                                         >

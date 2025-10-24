@@ -1,820 +1,119 @@
 {
-  "lastUpdate": "2025-10-20T16:29:00",
-  "2025-10-20": {
-    "Encontro Estadual das Licenciaturas da Unitins": [
-      {
-        "titulo": "Cerimônia e Conferência de Abertura: O modelo mercadológico de formação humana: impactos na escola, na didática e na formação de professores",
-        "horario": "8h30 - 11h",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Palestrante Prof.ª Dr.ª Raquel Aparecida Marra da Madeira Freitas (PUC GO). Mediador: Prof. Dr. Jackson Carlos da Silva",
-        "vagas": "120"
-      },
-      {
-        "titulo": "Conferência Temática: A formação do professor e a educação para o desenvolvimento dos alunos na perspectiva histórico-cultural",
-        "horario": "14h - 17h",
-        "local": "Sala 4 - Bloco b",
-        "palestrante": " Prof.ª Dr.ª Raquel Aparecida Marra da Madeira Freitas PUC GO. Mediador: Prof. Ms. Achilles Alves de Oliveira",
-        "vagas": "60"
-      }
-    ],
-    "XXXII Jornada de iniciação científica": [
-      {
-        "titulo": "Apresentações de trabalhos - Ciências Agrárias, Biológicas e Exatas e da Terra",
-        "horario": "14h - 18h30",
-        "local": "Salas 1 a 4 - Bloco A",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "Embrapa": [
-      {
-        "titulo": "Apresentações de trabalhos",
-        "horario": "14h",
-        "local": "Sala 6 - Bloco A",
-        "palestrante": "",
-        "vagas": "20"
-      }
-    ],
-    "Seminário Estadual de Educação em Direitos Humanos: Prevenir para Proteger: A Universidade como Território de Direitos": [
-      {
-        "titulo": "Conferência de Abertura: A Universidade como Espaço de Construção e Defesa dos Direitos Humanos (Discursão sobre igualdade racial)",
-        "horario": "16h - 18h",
-        "local": "Auditório Inovação",
-        "palestrante": "Gustavo Fagundes (Professor Serviço Social UNITINS) e Pabla Cassiângela Silva Milhomem (Conselho Nacional de Direitos Humanos) Mediador: Romeu Feix (Comitê)",
-        "vagas": "100"
-      }
-    ],
-    "Apresentação cultural": [
-      {
-        "titulo": "Apresentação cultural - Coral Unicanto",
-        "horario": "19h",
-        "local": "Auditório Planeta Água",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "III SCTI": [
-      {
-        "titulo": "Palestra magna de abertura: O Profissional do Futuro: Reflexão sobre as mudanças no mercado de trabalho e as novas competências necessárias para se manter relevante e valorizado",
-        "horario": "19h30 - 20h30",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Arthur Igreja",
-        "vagas": ""
-      }
-    ]
+  "lastUpdate": "2025-10-24T10:54:00",
+  "2025-10-29": {
+    "ABERTURA: MESA REDONDA: Hidrovia Araguaia Tocantins e as disputas pelos Rios na fronteira MATOPIBA: questões para a ciência e a sociedade": {
+      "titulo": "ABERTURA: MESA REDONDA: Hidrovia Araguaia Tocantins e as disputas pelos Rios na fronteira MATOPIBA: questões para a ciência e a sociedade",
+      "horario": "19h30 - 22h",
+      "local": "Auditório - Câmpus de Augustinópolis",
+      "palestrante": "Palestrante Esp.ª Jonas Oliveira Nascimento, Dr. Prof. Raimundo Carvalho Moura Filho - Medidaora: Prof.ª Dr. Carmen Hannud Carballeda Adsuara",
+      "vagas": "ilimitada"
+    },
+    "Apresentações de trabalhos - Ciências da Saúde e Ciências Humanas": {
+      "titulo": "Apresentações de trabalhos - Ciências da Saúde e Ciências Humanas",
+      "horario": "16h",
+      "local": "Salas 1 a 17",
+      "palestrante": "",
+      "vagas": "Ilimitada"
+    },
+    "Oficina: Como estruturar seu Projeto de Pesquisa com IA.": {
+      "titulo": "Oficina: Como estruturar seu Projeto de Pesquisa com IA.",
+      "horario": "8h:30 - 11h:30",
+      "local": "Google Via Meet",
+      "palestrante": "Ministrante Prof. Me. Leonardo dos Santos Bandeira - Medidaora: Me. Prof.ª Ana Paula Monteiro de Oliveira",
+      "vagas": "100"
+    },
+    "Oficina Tema: Eletrocardiograma": {
+      "titulo": "Oficina Tema: Eletrocardiograma",
+      "horario": "8h:30 - 11h:30",
+      "local": "Sala 17",
+      "palestrante": "Ministrante : Prof. Me. Volmar Morais Fontoura",
+      "vagas": "20"
+    },
+    "Oficina: Uso do Rayyan como ferramenta de apoio em revisões sistemáticas, integrativas e de escopo.": {
+      "titulo": "Oficina: Uso do Rayyan como ferramenta de apoio em revisões sistemáticas, integrativas e de escopo.",
+      "horario": "8h:30 - 11h:30",
+      "local": "Google Meet",
+      "palestrante": "Ministrante: Profª. Me. Antônia Almeida Araújo e Mediador Me. Prof. Juan Pablo Do Nascimento Vale (UFMA)",
+      "vagas": "100"
+    },
+    "Oficina: Da Pergunta à Evidência: Estratégias Práticas de Busca Científica em Saúde": {
+      "titulo": "Oficina: Da Pergunta à Evidência: Estratégias Práticas de Busca Científica em Saúde",
+      "horario": "8h:30 - 11h:30",
+      "local": "Google Meet",
+      "palestrante": "Ministrante Prof.ª : Dra. Lunalva Aurélio Pedroso Sallet - Medidaora: Dr. Prof. Lucas dos Santos",
+      "vagas": "100"
+    },
+    "Oficina: Zotero: Automatize suas Referências Bibliograficas": {
+      "titulo": "Oficina: Zotero: Automatize suas Referências Bibliograficas",
+      "horario": "14h - 17h",
+      "local": "Google Meet",
+      "palestrante": "Ministrante : Me. Prof. Juan Pablo Do Nascimento Vale (UFMA) e Mediadora: Profª. Me. Antônia Almeida Araújo e Mediador",
+      "vagas": "100"
+    },
+    "Oficina: Cuidados e Manejo em Laboratório de Cultura Celular aplicados à saúde.": {
+      "titulo": "Oficina: Cuidados e Manejo em Laboratório de Cultura Celular aplicados à saúde.",
+      "horario": "15h - 17h",
+      "local": "Laboratório UNITINS - Microbiologia, Biofísica.",
+      "palestrante": "Ministrante Prof.ª : Dr. Maiara Bernardes Marques",
+      "vagas": "40"
+    },
+    "Mesa Redonda: Tema: Modos de vida e crítica ao capitalismo em Ailton Krenak e Byung-Chul han: Natureza, alteridade e afeto como fundamentos existenciais": {
+      "titulo": "Mesa Redonda: Tema: Modos de vida e crítica ao capitalismo em Ailton Krenak e Byung-Chul han: Natureza, alteridade e afeto como fundamentos existenciais",
+      "horario": "15h - 17h",
+      "local": "Nucléo de Prática de Jurídica - NPCJ",
+      "palestrante": "Ministrante Prof.ª Me. Fernanda Miler Lima Pinto, Dr. Prof. Raimundo Carvalho Moura Filho e Mediador: Rafael Guedes Silva Sena",
+      "vagas": "30"
+    }
   },
-  "2025-10-21": {
-    "I Semana Acadêmica das Agrárias - UNITINS/Tema IntegraAGRO: Cultivando Conhecimento Para o Campo": [
-      {
-        "titulo": "Palestra Magna de abertura: O Futuro do Agronegócio e da Agricultura Tocantinense",
-        "horario": "8h - 12h",
-        "local": "Auditório Planeta Água",
-        "palestrante": " Cesár Hanna Halum. Mediador: Thiago de Lázari",
-        "vagas": "120"
-      },
-      {
-        "titulo": "Mini curso: Análise e Interpretação de Solo (atividade prática com tabelas)",
-        "horario": "14h - 16h",
-        "local": "Sala 5 - Bloco A",
-        "palestrante": "Ministrante: Gustavo Marquardt",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Oficina: Produção de silagem",
-        "horario": "14h - 18h",
-        "local": "Hall - Bloco A",
-        "palestrante": "Ministrante: Mirian das Mercês",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Mini curso: Mecanização Agrícolas e Demonstração prática com maquinário - JACTO",
-        "horario": "14h - 18h",
-        "local": "Sala 7 - Bloco A",
-        "palestrante": "Ministrante: Giovani Menegucci Martin",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Mini curso: Agricultura de Precisão - JACTO",
-        "horario": "14h - 18h",
-        "local": "Sala 8 - Bloco A",
-        "palestrante": "Ministrante: Gilberto Fernandes de Melo Junior",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Palestra: Importância do calendário sanitário para bovinos/Principais vacinas e cuidados preventivos - ADAPEC",
-        "horario": "14h - 15h",
-        "local": "Sala 09 - Bloco A",
-        "palestrante": " Sérgio Armando Castro Souza Liocádio",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Palestra: Integração Lavoura-Pecuária como ferramenta para o aumento da rentabilidade e produtividade na atividade pecuária - EMBRAPA",
-        "horario": "14h - 16h",
-        "local": "Sala 10 - Bloco A",
-        "palestrante": " Pedro Henrique Rezende",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Palestra: Novas tecnólogias para o manejo de doenças de plantas - EMBRAPA",
-        "horario": "14h - 15h",
-        "local": "Sala 11 - Bloco A",
-        "palestrante": " Rodrigo Veras",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Mini curso: Recomendação de Calagem e Gessagem para Milho e Soja",
-        "horario": "16h - 18h",
-        "local": "Sala 5 - Bloco A",
-        "palestrante": "Ministrante: Gustavo Marquardt",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Mini curso: Uso de Drones no Campo",
-        "horario": "14h - 18h",
-        "local": "Auditório Inovação",
-        "palestrante": "Ministrante: Mayke Rocha",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Oficina: Fruticultura",
-        "horario": "14h - 18h",
-        "local": "Hall - Bloco A",
-        "palestrante": "Ministrante: Cibelle Christine",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Oficina: Determinação da Resistência do Solo à Penetração",
-        "horario": "15h - 17h",
-        "local": "Sala 09- Bloco A",
-        "palestrante": "Ministrante: Diony Alves Reis",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Palestra:Gestão e Aplicação de Defensivos Agrícolas: Papel do Agrônomo e Boas Práticas no Campo - ADAPEC",
-        "horario": "14h - 15h30",
-        "local": "Sala 4 - Bloco A",
-        "palestrante": " Luiz Henrique Froes Michelin",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Mini Curso: Sistema de Produção de Arroz Irrigado no Tocantins - EMBRAPA",
-        "horario": "14h - 16h",
-        "local": "Sala 12 - Bloco A",
-        "palestrante": "Ministrante: Inocencio Oliveira",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Palestra: Papel do Engenheiro Agrônomo na orientação técnica aos produtores e equipe - ADAPEC",
-        "horario": "15h30 - 16h30",
-        "local": "Sala 11 - Bloco A",
-        "palestrante": " Cleovan Barbosa",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Palestra: Desafios da Defesa Agropecuária no enfrentamento do HLB (Huanglongbing) - ADAPEC",
-        "horario": "16h30 - 17h30",
-        "local": "Sala 10 - Bloco A",
-        "palestrante": " Helcids de Sá Reis",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Palestra: Noções básicas de nutrição animal - ADAPEC",
-        "horario": "15h - 16h",
-        "local": "Sala 6 - Bloco A",
-        "palestrante": " Frederico Borba Diniz",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Palestra: Devolução de embalagens vazias de agrotóxicos - ADAPEC",
-        "horario": "16h - 17h",
-        "local": "Sala 4 - Bloco A",
-        "palestrante": " Carlos César",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Palestra: Manejo eficiente de pastagens e rotatividade de piquetes - ADAPEC",
-        "horario": "17h - 18h",
-        "local": "Sala 6 - Bloco A",
-        "palestrante": " Denilsom Bezerra Costa",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Roda de conversa: Perfil profissional almejado pelos mercados contemporâneos e oportunidades para Engenheiros (as) Agrônomos (as) e do Tecnólogo em Agronegócio",
-        "horario": "19h - 22h",
-        "local": "Auditório Inovação",
-        "palestrante": "Convidados: Fernando Henrique Faria Coelho; Loyane Pereira; Osvanio Junior; Luciano Garcia; Luiz Villa ; Silvia Barroso Gomes Souto. Mediador: Thiago Magalhães de Lázari",
-        "vagas": "80"
-      }
-    ],
-    "IX Colóquio Interdisciplinar de Ensino, Pesquisa e Extensão": [
-      {
-        "titulo": "Oficina: Código e Sustentabilidade: Construindo um sistema automatizado de reaproveitamento de água.",
-        "horario": "9h - 10h",
-        "local": "Sala 4 - Bloco B",
-        "palestrante": " Joelma Feitosa Modesto (Unitins)",
-        "vagas": "40"
-      }
-    ],
-    "Encontro Estadual das Licenciaturas da Unitins": [
-      {
-        "titulo": "Abertura do I Encontro Estadual das licenciaturas do Unitins",
-        "horario": "8h",
-        "local": "Auditório Inovação",
-        "palestrante": "Prof.ª Dra. Raquel Aparecida Marra",
-        "vagas": ""
-      
-      },
-      {
-        "titulo": "Mesa Redonda: A Relação entre a Universidade e a Escola de Educação Básica: diálogos necessários",
-        "horario": "9h30 - 11h30",
-        "local": "Auditório Inovação",
-        "palestrante": "Convidados: Prof. Ms. Augusto de Rezende Campos (Unitins); Prof. Esp. Eurípedes Fernandes Cunha (Secretário executivo da educ. estadual do TO), Prof.ª Esp. Anice de Souza Moura (Secretária municipal de educ. de Palmas), Prof.ª Dr.ª Maria Santana Ferreira dos Santos Milhomem (UFT). Mediador: Prof.ª Dr.ª Mariany Montino (Unitins)",
-        "vagas": "80"
-      },
-      {
-        "titulo": "I Mostra PIBID Unitins: Eixos Temáticos: Didática e práticas de ensino; Tecnologias na Educação; Literatura",
-        "horario": "14h - 17h",
-        "local": "Google meet",
-        "palestrante": "",
-        "vagas": "40"
-      },
-      {
-        "titulo": "I Mostra pedagogia UAB curso de letras: Eixos Temáticos: Didática e práticas de ensino; Tecnologias na Educação, Estágio e projeto integrador",
-        "horario": "19h - 22h",
-        "local": "Google meet",
-        "palestrante": "",
-        "vagas": "40"
-      }
-    ],
-    "III Circuito de Inovação": [
-      {
-        "titulo": "Oficina: Robótica na rede:Programando desafios",
-        "horario": "8h - 11h",
-        "local": "Sala 5 - Bloco B",
-        "palestrante": "Luiz Eduardo Maia (SENAI), Edson Mário Pereira (SENAI)",
-        "vagas": "60"
-      },
-      {
-        "titulo": "Hackathon InovaUni – HackÁgua e FAPTgulhas",
-        "horario": "10h - 18h",
-        "local": "Arena Hackathon",
-        "palestrante": "Funcionamento: 21 a 23/10",
-        "vagas": "50"
-      },
-      {
-        "titulo": "Oficina: Introdução à Propriedade Intelectual: Protegendo Inovações Sustentáveis",
-        "horario": "14h - 17h",
-        "local": "Sala 7 - Bloco B",
-        "palestrante": " Prof. Caio William Barcelos Santos (Unitins).",
-        "vagas": "40"
-      }
-    ],
-    "XXXII Jornada de iniciação científica": [
-      {
-        "titulo": "Apresentações de trabalhos - Ciências da Saúde e Biológicas",
-        "horario": "14h - 18h30",
-        "local": "Salas 1 a 3 - Bloco A e Sala 8 e 9 - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      },
-      {
-        "titulo": "Apresentações de trabalhos - Mostra de projetos de pesquisa",
-        "horario": "8h - 18h",
-        "local": "Pitch",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "FAPT": [
-      {
-        "titulo": "Apresentações de trabalhos - Edital FAPT Nº 01/2024 – Rosas da Ciência",
-        "horario": "14h - 18h",
-        "local": "Sala 5 - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "Projeto Integrador curso de Gestão Pública - TO Graduado": [
-      {
-        "titulo": "Apresentações de trabalhos",
-        "horario": "20h",
-        "local": "Hall - Bloco A",
-        "palestrante": "",
-        "vagas": "30"
-      }
-    ],
-    "Apresentação cultural": [
-      {
-        "titulo": "Apresentação cultural - Roda de Sussia Monte do Carmo e Curso Básico de LIBRAS em Monte do Carmo",
-        "horario": "19h",
-        "local": "Auditório Planeta Água",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "Seminário Estadual de Educação em Direitos Humanos: Prevenir para Proteger: A Universidade como Território de Direitos": [
-      {
-        "titulo": "Conferência de Encerramento: O Futuro da Educação em Direitos Humanos: Desafios e Perspectivas e Assinatura do Pacto pela Educação em Direitos Humanos no Ensino Superior",
-        "horario": "19h30 - 20h30",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Erasto Fortes Mendonça (coordenador do MEC) e Rodrigo Mondego (Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados). Mediadores: Kátia Farias e Marcela Barretos (Unitins).",
-        "vagas": "120"
-      }
-    ],
-    "III SCTI": [
-      {
-        "titulo": "Palestra magna: Gestão Estratégica e Inovação como pilares para o desenvolvimento institucional e regional",
-        "horario": "20h30 - 22h",
-        "local": "Auditório Planeta Água",
-        "palestrante": " Sandro Magaldi",
-        "vagas": ""
-      }
-    ]
-  },
-  "2025-10-22": {
-    "III Circuito de Inovação": [
-      {
-        "titulo": "Transferência de Tecnologia Na UFJF: Transformando Conhecimento em Inovação",
-        "horario": "9h - 11h",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Prof. Dr. Leonardo Miranda Frossard (Universidade Federal de Juiz de Fora)",
-        "vagas": ""
-      },
-      {
-        "titulo": "Planetário",
-        "horario": "8h - 18h",
-        "local": "Sala 7 - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      },
-      {
-        "titulo": "Palestra magna: Inovação Sustentável no Setor Industrial – Quick Wins com IA e IoT",
-        "horario": "19h30 - 21h30",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Lucas Mattos (FIT - Instituto de Tecnologia)",
-        "vagas": ""
-      }
-    ],
-    "I Semana Acadêmica das Agrárias - UNITINS/Tema IntegraAGRO: Cultivando Conhecimento Para o Campo": [
-      {
-        "titulo": "Oficina: Brotos Comestíveis",
-        "horario": "8h - 9h30",
-        "local": "Sala 7 - Bloco A",
-        "palestrante": "Ministrantes: Juliana Maria de Paula, Ana Carolina Roos e Tiago Dias",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Oficina: Boas Práticas Agrícolas na Produção de Mandioca",
-        "horario": "9h30 - 10h30",
-        "local": "Sala 8 - Bloco A",
-        "palestrante": " Eliane Archangelo",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Oficina: Plantas Alimentícias Não Convencionais (PANCS)",
-        "horario": "10h30 - 12h",
-        "local": "Sala 7 - Bloco A",
-        "palestrante": "Ministrantes: Juliana Maria de Paula, Geovanna Teixeira Oliveira e Tiago Dias",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Encontro de Egressos dos Cursos de Engenharia Agronômica e Tecnologia em Gestão do Agronegócio.",
-        "horario": "14h - 18h",
-        "local": "Sala 7 - Bloco A",
-        "palestrante": "Egressos Tecnologia em Gestão do Agronegócio (Paraíso), Egressos Engenharia Agronômica. Mediador: Thiago Magalhães de Lázari",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Roda de conversa ao vivo: Tecnólogo em Ação: Desafios e Conquistas no Mercado de Trabalho",
-        "horario": "19h - 20h30",
-        "local": "Google meet",
-        "palestrante": " Oscar Arnaldo Batista Neto e Silva: Corteva Agriscience (SP), Eduardo Moreira Barros. Mediadora: Juliana Maria de Paula",
-        "vagas": ""
-      },
-      {
-        "titulo": "Oficina ao vivo: A transformação Digital no Agronegócio com Impressão 3D",
-        "horario": "20h30 - 22h",
-        "local": "Google meet",
-        "palestrante": "Ministrante: Phelipe Luiz Damasceno Araújo. Mediadora: Daisy Parente Dourado",
-        "vagas": ""
-      }
-    ],
-    "IX Colóquio Interdisciplinar de Ensino, Pesquisa e Extensão": [
-      {
-        "titulo": "Mesa Redonda: Barragens e Mudanças Climáticas: Impactos, Adaptação e Justiça Hídrica no Cerrado Tocantinense",
-        "horario": "9h - 10h",
-        "local": "Sala 4 - Bloco B",
-        "palestrante": " Atamis Antônio Foschiera (UFT), Judith Rocha (Presidente dos atingidos pela barragem - ASAP), Professora Thaysi Castro Coelho Andrade (Unitins). Mediadora: Marcela Barreto",
-        "vagas": "40"
-      },
-      {
-        "titulo": "III Feira de Extensão",
-        "horario": "14h - 17h",
-        "local": "Sala 8 e 9 - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      },
-      {
-        "titulo": "Palestra magna: Direito à água e saneamento no Brasil",
-        "horario": "19h - 22h",
-        "local": "Auditório Inovação",
-        "palestrante": " Sandra Negri (Universidade Federal do Mato Grosso). Mediador: Fredson Vieira Costa",
-        "vagas": "80"
-      }
-    ],
-    "I Fórum de Gestão dos Grupos de Pesquisa": [
-      {
-        "titulo": "Solenidade de abertura e Palestra: Estratégias para Consolidação dos Grupos de Pesquisa",
-        "horario": "9h - 10h30",
-        "local": "Auditório Inovação",
-        "palestrante": " Prof. Dr. Jofre Jacob da Silva Freitas (Universidade Estadual do Pará)",
-        "vagas": "80"
-      },
-      {
-        "titulo": "Palestra: Fomento à Pesquisa – Oportunidades",
-        "horario": "11h10 - 12h",
-        "local": "Auditório Inovação",
-        "palestrante": "FAPT - Momento NIT: Apresentação do OportuNIT Unitins",
-        "vagas": "80"
-      },
-      {
-        "titulo": "Mesa redonda: Ciências Sociais Aplicadas e Humanas: Integração e potencialidades institucionais",
-        "horario": "14h10 - 16h",
-        "local": "Auditório Inovação",
-        "palestrante": "Participantes: Prof. Dr. Alexandre Dias Carreiro Santos Serra (Universidade de Coimbra -Portugal); Dr.ª Jaqueline de Kássia (Reitora da UnirG); Líderes de GP da Unitins e UnirG; Dr.ª Leda Veronica Benevides Dantas Silva (Diretora de Pós-Graduação)",
-        "vagas": "80"
-      },
-      {
-        "titulo": "Palestra e Mesa-redonda: Ciências da Saúde e Biológicas: Bioprospecção Farmacológica na Amazônia e Inovação em Saúde",
-        "horario": "16h30 - 18h",
-        "local": "Auditório Inovação",
-        "palestrante": "Participantes: Dr. Jofre Freitas (UEPA); Dr. Walmirton Bezerra D'Alessandro (Pró-Reitor de Pesquisa da UnirG); Líderes de GP da Unitins e UnirG; Dr.ª Leda Veronica Benevides Dantas Silva (Diretora de Pós-Graduação)",
-        "vagas": "80"
-      }
-    ],
-    "Encontro Estadual das Licenciaturas da Unitins": [
-      {
-        "titulo": "I Seminário de Estágio Supervisionado Pedagogia Palmas",
-        "horario": "9h30 - 11h",
-        "local": "Salas 10, 11 e 12 - Bloco A",
-        "palestrante": "",
-        "vagas": "40"
-      },
-      {
-        "titulo": "I Mostra pedagogia UAB curso de pedagogia: Eixos Temáticos: Didática e práticas de ensino; Tecnologias na Educação, Estágio e projeto integrador",
-        "horario": "19h - 22h",
-        "local": "Google meet",
-        "palestrante": "",
-        "vagas": "40"
-      }
-    ],
-    "XXXII Jornada de iniciação científica": [
-      {
-        "titulo": "Apresentações de trabalhos - Ciências Humanas e Sociais Aplicadas",
-        "horario": "14h - 18h30",
-        "local": "Salas 1 a 5 - Bloco A",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "II Colóquio de Extensão – TO Graduado": [
-      {
-        "titulo": "Apresentações de trabalhos",
-        "horario": "19h - 20h",
-        "local": "Google meet",
-        "palestrante": "",
-        "vagas": "54"
-      }
-    ],
-    "Apresentação cultural": [
-      {
-        "titulo": "Apresentação cultural - Banda da Polícia Militar",
-        "horario": "19h",
-        "local": "Auditório Planeta Água",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "Projeto Integrador curso de Gestão Pública - TO Graduado": [
-      {
-        "titulo": "Apresentações de trabalhos",
-        "horario": "20h",
-        "local": "Hall - Bloco A",
-        "palestrante": "",
-        "vagas": "30"
-      }
-    ]
-  },
-  "2025-10-23": {
-    "Mudanças Climáticas e seus Desdobramentos: Educação Climática, Sustentabilidade, Tecnologia e Saberes Interdisciplinares": [
-      {
-        "titulo": "Abertura e palestra: Mecanismos de Redução de Emissões por Desmatamento e Degradação Florestal (REDD+), relacionando-os às metas globais de mitigação e às políticas ambientais do Estado",
-        "horario": "8h - 10h",
-        "local": "Auditório Inovação",
-        "palestrante": "Marli Santos - Semarh-TO",
-        "vagas": "80"
-      },
-      {
-        "titulo": "Palestra: Geoportais e dashboards interativos como instrumentos de inovação e suporte à governança ambiental - uma apresentação do CIGMA: Centro de Inteligência Geográfica em Gestão do Meio Ambiente",
-        "horario": "10h30 - 12h",
-        "local": "Auditório Inovação",
-        "palestrante": "Marco Giongo - Semarh-TO",
-        "vagas": "80"
-      },
-      {
-        "titulo": "Apresentação de trabalhos: Resultados preliminares do Inventário de Emissões de Gases de Efeito Estufa de Palmas",
-        "horario": "14h - 15h30",
-        "local": "Sala 6 - Bloco A",
-        "palestrante": "Ariela Cavalcanti - FMA/Palmas",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Palestra: Educação Ambiental, Clima e Água: Caminhos pedagógicos para uma cultura de sustentabilidade",
-        "horario": "16h - 17h30",
-        "local": "Sala 6 - Bloco A",
-        "palestrante": "Fátima Casarin (Consultora Poli/UFRJ)",
-        "vagas": "40"
-      }
-    ],
-    "I Congresso de Direito, Processo e Tecnologia da Unitins": [
-      {
-        "titulo": "Palestra: Inteligência Artificial Generativa (ChatGPT e afins) na Fundamentação de petições e decisões judiciais: Ferramenta ou Ameaça?",
-        "horario": "8h30 - 10h",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Felipe Michetti (Analista do STJ-TO)",
-        "vagas": "120"
-      },
-      {
-        "titulo": "Palestra: A Inteligência Artificial no Tribunal de Justiça do Estado do Tocantins",
-        "horario": "10h - 12h",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Harly Carreiro (Analista do TJTO)",
-        "vagas": "120"
-      },
-      {
-        "titulo": "Palestra: Excelência na Advocacia",
-        "horario": "16h - 18h",
-        "local": "Google meet",
-        "palestrante": "Rennan Thamay (Advogado e Professor)",
-        "vagas": ""
-      }
-    ],
-    "Jornada Acadêmica dos Cursos de Sistemas de Informação e Tecnologia em Análise e Desenvolvimento de Sistemas e Encontro de Egressos do Curso de Sistemas de Informação": [
-      {
-        "titulo": "Oficina: Construção de Dashboards com Looker Studio",
-        "horario": "8h30 - 11h30",
-        "local": "Lab. Informática I -Bloco B",
-        "palestrante": "Minstrantes: Danilo da Silva Moreira Pires e Emannuel Oliveira Pedreira",
-        "vagas": "30"
-      }
-    ],
-    "IX Colóquio Interdisciplinar de Ensino, Pesquisa e Extensão": [
-      {
-        "titulo": "Oficina: Bunitins: percussão sistentável",
-        "horario": "9h - 12h",
-        "local": "Sala 4 - Bloco B",
-        "palestrante": "Alexandro Billy. Mediador: Ruy Bucar",
-        "vagas": "40"
-      },
-      {
-        "titulo": "III Feira de Extensão",
-        "horario": "14h - 17h",
-        "local": "Sala 8 e 9 - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      },
-      {
-        "titulo": "Palestra: Da nascente ao oceano: Como a degradação ambiental ameaça nossa saúde",
-        "horario": "19h - 22h",
-        "local": "Auditório Inovação",
-        "palestrante": "Bruno do Amaral Crispim (Unitins), Mediadora: Elza Golveia Leite (Unitins)",
-        "vagas": "80"
-      }
-    ],
-    "XXXII Jornada de iniciação científica": [
-      {
-        "titulo": "Apresentações de trabalhos - Mostra de projetos de pesquisa",
-        "horario": "8h - 18h",
-        "local": "Pitch",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "FAPT": [
-      {
-        "titulo": "Apresentações de trabalhos - Edital saúde FAPT/SES-TO Nº 01/2023 – Fomento à Produção Científica na Saúde no Estado do Tocantins",
-        "horario": "8h - 18h",
-        "local": "Sala 10 - Bloco A",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "III Circuito de Inovação": [
-      {
-        "titulo": "Planetário",
-        "horario": "8h - 18h",
-        "local": "Sala 7 - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      },
-      {
-        "titulo": "Roda de conversa: Inteligência Coletiva no Tocantins: Estratégias de Colaboração em Rede para o Ecossistema de Inovação",
-        "horario": "19h30",
-        "local": "Arena Hackathon",
-        "palestrante": "",
-        "vagas": "50"
-      }
-    ],
-    "Apresentação cultural": [
-      {
-        "titulo": "Apresentação cultural - Orquestra Jovem da Guarda Metropolitana de Palmas",
-        "horario": "19h",
-        "local": "Auditório Planeta Água",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "I Semana Acadêmica das Agrárias - UNITINS/Tema IntegraAGRO: Cultivando Conhecimento Para o Campo": [
-      {
-        "titulo": "Palestra magna: Competências e Carreiras no Agro: Inspirando Novas Gerações",
-        "horario": "19h - 21h",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Oscar Arnaldo Batista Neto e Silva. Mediadora: Daisy Parente Dourado",
-        "vagas": "120"
-      },
-      {
-        "titulo": "Festival Culinário Sabores do Campo",
-        "horario": "20h30 - 22h",
-        "local": "Hall - Bloco B",
-        "palestrante": "Organizadores: Phelipe Luiz Damasceno Araújo, Layane Araújo Dias Vitor, Pollyana Alves de Araújo. Mediadora: Daisy Parente Dourado",
-        "vagas": "120"
-      }
-    ]
-  },
-  "2025-10-24": {
-    "III Circuito de Inovação": [
-      {
-        "titulo": "Planetário",
-        "horario": "8h - 18h",
-        "local": "Sala 7 - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "Jornada Acadêmica dos Cursos de Sistemas de Informação e Tecnologia em Análise e Desenvolvimento de Sistemas e Encontro de Egressos do Curso de Sistemas de Informação": [
-      {
-        "titulo": "Palestra: LGPD na Prática Acadêmica: Ética, Segurança e Conformidade",
-        "horario": "8h30 - 9h55",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Alex Coelho (Unitins). Mediadora: Marcia Maria Savoine (Unitins).",
-        "vagas": "120"
-      },
-      {
-        "titulo": "Palestra: Certificação Profissional e Carreira Acadêmica: Caminhos para o Sucesso",
-        "horario": "10h - 11h30",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Heder Soares (INPE). Mediador: Douglas da Silva (Unitins)",
-        "vagas": "120"
-      },
-      {
-        "titulo": "Encontro dos Egressos de Sistemas de Informação: Conexões que Transformam",
-        "horario": "19h30 - 21h30",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Marco Antonio Firmino de Sousa (Unitins) e Douglas Chagas da Silva (Unitins). Mediadora: Leandra Cristina Cavina Piovesan Soares. (UNITINS)",
-        "vagas": "120"
-      },
-      {
-        "titulo": "Oficina: Programando com Flutter",
-        "horario": "19h30 - 21h30",
-        "local": "Google meet",
-        "meetLink": "https://meet.google.com/hxr-ipvh-vqq",
-        "palestrante": "Cristovam Liberato (Player Contabilidade). Mediador: Yzaac da Silva. (UNITINS)",
-        "vagas": ""
-      },
-      {
-        "titulo": "Oficina: Construindo meu primeiro serviço",
-        "horario": "19h30 - 21h30",
-        "local": "Google meet",
-        "meetLink": "https://meet.google.com/jbn=mrzt-tfv",
-        "palestrante": "Michael dos Santos(TRE-TO). Mediadores: Alysson Martins Bruno (UNITINS) e Carlos Noleto (UNITINS)",
-        "vagas": ""
-      }
-    ],
-    "Mudanças Climáticas e seus Desdobramentos: Educação Climática, Sustentabilidade, Tecnologia e Saberes Interdisciplinares": [
-      {
-        "titulo": "Palestra: Políticas ambientais e desafios da governança climática, enfocando a articulação entre ciência, poder público e sociedade civil",
-        "horario": "8h - 10h",
-        "local": "Auditório Inovação",
-        "palestrante": "Prof. Dr. Alexandre Dias Carreiro Santos Serra (Universidade de Coimbra -Portugal)",
-        "vagas": "80"
-      },
-      {
-        "titulo": "Oficina: Caminhos de Sustentabilidade – Construindo Diretrizes Climáticas para o Tocantins rumo à COP-30",
-        "horario": "10h30 - 12h",
-        "local": "Auditório Inovação",
-        "palestrante": "",
-        "vagas": "80"
-      }
-    ],
-    "Encontro Estadual das Licenciaturas da Unitins": [
-      {
-        "titulo": "Oficina: Descomplicando o ENADE: o que os estudantes precisam saber para um bom desempenho?",
-        "horario": "8h - 12h",
-        "local": "Salas 6 - Bloco A",
-        "palestrante": "",
-        "vagas": "40"
-      },
-      {
-        "titulo": "Oficina Temática: Brincando e Construindo Jogos com Materiais Alternativos",
-        "horario": "8h - 12h",
-        "local": "Salas 4 e 5 - Bloco B",
-        "palestrante": "Ministrante: Prof. Flávio Moura (SEDUC TO)",
-        "vagas": "40"
-      }
-    ],
-    "IX Colóquio Interdisciplinar de Ensino, Pesquisa e Extensão": [
-      {
-        "titulo": "III Feira de Extensão",
-        "horario": "14h - 17h",
-        "local": "Sala 8 e 9 - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ],
-    "Lançamento da revista e premiações da JIC, NIT, Colóquio e TO Graduado": [
-      {
-        "titulo": "Premiação e Encerramento",
-        "horario": "18h - 19h",
-        "local": "Auditório Planeta Água",
-        "palestrante": "Equipe de cada evento participante da premiação",
-        "vagas": ""
-      }
-    ],
-    "I Congresso de Direito, Processo e Tecnologia da Unitins": [
-      {
-        "titulo": "Palestra: Direito Ambiental na União Europeia",
-        "horario": "19h30 - 22h",
-        "local": "Auditório Inovação",
-        "palestrante": "Prof. Dr. Alexandre Dias Carreiro Santos Serra (Universidade de Coimbra -Portugal)",
-        "vagas": "80"
-      }
-    ],
-    "Apresentação cultural": [
-      {
-        "titulo": "Apresentação cultural - Grupo Toca Choro",
-        "horario": "19h - 19h30",
-        "local": "Auditório Planeta Água",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ]
-  },
-  "Todos os dias": {
-    "III Circuito de Inovação": [
-      {
-        "titulo": "Exposição: Meninas e Mulheres Inovadoras (Realidade Virtual) + Quiz TecnoSocial - Tecnologias Sociais para o Desenvolvimento Sustentável ",
-        "horario": "8h - 22h",
-        "local": "Sala 10 - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      },
-      {
-        "titulo": "Exposição: Natureza em Foco - Uma Jornada Imersiva pela Biodiversidade Brasileira (Realidade Virtual)",
-        "horario": "8h - 22h",
-        "local": "Sala 11 - Bloco B",
-        "palestrante": "NIT e Sebrae - TO",
-        "vagas": ""
-      }
-    ],
-    "IX Colóquio Interdisciplinar de Ensino, Pesquisa e Extensão": [
-      {
-        "titulo": "Exposição: Memória Institucional",
-        "horario": "8h - 22h",
-        "local": "Hall - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      },
-      {
-        "titulo": "Exposição: Núcleo de Arqueologia Tocantinense (Nuta)",
-        "horario": "8h - 22h",
-        "local": "Sala 13 - Bloco A",
-        "palestrante": "",
-        "vagas": ""
-      },
-      {
-        "titulo": "Exposição: Museu José Hidashi",
-        "horario": "8h - 22h",
-        "local": "Sala 13 - Bloco A",
-        "palestrante": "",
-        "vagas": ""
-      },
-      {
-        "titulo": "Exposição: Unitins Recicla",
-        "horario": "8h - 22h",
-        "local": "Hall - Bloco B",
-        "palestrante": "",
-        "vagas": ""
-      }
-    ]
+  "2025-10-30": {
+    "ENCERRAMENTO - Palestra: - Apresentação Cultural e Premiação.": {
+      "titulo": "ENCERRAMENTO - Palestra: - Apresentação Cultural e Premiação.",
+      "horario": "19h:30 - 22h:00",
+      "local": "Auditório - Câmpus de Augustinópolis",
+      "palestrante": "",
+      "vagas": "ilimitada"
+    },
+    "Apresentações de trabalhos - Ciências da Sociais Aplicada": {
+      "titulo": "Apresentações de trabalhos - Ciências da Sociais Aplicada",
+      "horario": "16h",
+      "local": "Salas 1 a 17",
+      "palestrante": "",
+      "vagas": "Ilimitada"
+    },
+    "Oficina: Currículo Lattes Detalhado: Passo a Passo para Organizar e Preencher Sem Erro": {
+      "titulo": "Oficina: Currículo Lattes Detalhado: Passo a Passo para Organizar e Preencher Sem Erro",
+      "horario": "8h:30 - 11:30",
+      "local": "Google Meet",
+      "palestrante": "Ministrante: Prof.ª Dr. Orleane Evangelista de Santana e Prof.ª Me. Marisa de Sousa Brito",
+      "vagas": "100"
+    },
+    "Oficina: O processo de cicatrização e os diversos tipos de curativos (passivos e ativos).": {
+      "titulo": "Oficina: O processo de cicatrização e os diversos tipos de curativos (passivos e ativos).",
+      "horario": "8H:00 - 11h:30",
+      "local": "Complexo de Ciências da Saúde CCS – Laboratório de Clínica Cirúrgicas",
+      "palestrante": "Ministrante: Prof.ª Me.Vanessa Silva Souza",
+      "vagas": "20"
+    },
+    "Oficina: Expertise em injetáveis": {
+      "titulo": "Oficina: Expertise em injetáveis",
+      "horario": "08h:30 - 11h:30",
+      "local": "Laborátorio de Semiotécnica – Complexo de Ciências da Saúde - CCS",
+      "palestrante": "Ministrante: Prof.ª Me. Sheila Cristina Teixeira Fonseca e Mediadora. Prof.ªSônia Maria Neri de Araújo",
+      "vagas": "20"
+    },
+    "Oficina: Natureza, Alteridade e Afeto: outras formas de pensar a vida e a justiça": {
+      "titulo": "Oficina: Natureza, Alteridade e Afeto: outras formas de pensar a vida e a justiça",
+      "horario": "9:00 - 11h:30",
+      "local": "Google Meet",
+      "palestrante": "Ministrante: Dr. Prof. Raimundo Carvalho Moura Filho e Medidaora: Maria Aparecida Da Silva",
+      "vagas": "100"
+    },
+    "Oficina: Leitura Crítica e Interdisciplinaridade nas Ciências Humanas e Sociais: Direito, Sociedade e Sustentabilidade": {
+      "titulo": "Oficina: Leitura Crítica e Interdisciplinaridade nas Ciências Humanas e Sociais: Direito, Sociedade e Sustentabilidade",
+      "horario": "10h - 12h",
+      "local": "Google Meet",
+      "palestrante": "Ministrante: Me. Prof.ª Fernanda Miler Lima Pintoe Medidaora: Jamille Alves dos Santos",
+      "vagas": "100"
+    }
   }
 }

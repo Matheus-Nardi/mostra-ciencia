@@ -34,7 +34,7 @@ export default function Location() {
             </div>
 
             <p className="text-muted-foreground font-poppins text-sm sm:text-base md:text-lg leading-relaxed">
-              Todo o evento acontecerá no campus Graciosa da UNITINS
+              Todo o evento acontecerá no campus Augustinópolis da UNITINS
             </p>
 
             {/* Address card */}
@@ -45,12 +45,11 @@ export default function Location() {
                 </div>
                 <div className="flex-1 space-y-3">
                   <h3 className="font-bold text-lg sm:text-xl font-montserrat text-primary leading-tight">
-                    UNITINS - Campus Graciosa
+                    UNITINS - Campus Augustinópolis
                   </h3>
                   <address className="text-muted-foreground text-sm sm:text-base not-italic leading-relaxed">
-                    Quadra 109 Norte, Avenida NS 15, Lote 09<br />
-                    Plano Diretor Norte<br />
-                    Palmas-TO, CEP: 77001-090
+                    R. Planalto, 601 - Centro<br />
+                    Augustinópolis-TO, CEP: 77960-000
                   </address>
                 </div>
               </div>
@@ -60,7 +59,7 @@ export default function Location() {
           {/* Map */}
           <div className="relative w-full h-full min-h-[400px] rounded-2xl overflow-hidden shadow-md border-4 border-white/50 ring-2 ring-primary/20">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.9772599216494!2d-48.36306562390588!3d-10.182501909999257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x933b34d9792561fd%3A0x46c870dad9a6640b!2sUniversidade%20Estadual%20do%20Tocantins%20-%20Unitins!5e0!3m2!1spt-BR!2sbr!4v1759885547683!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.6989372912744!2d-47.88626812501549!3d-5.462573194517036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92c511ce70754147%3A0xf90c64fa514879f7!2sUnitins%20-%20C%C3%A2mpus%20Augustin%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1761308618393!5m2!1spt-BR!2sbr"
               className="absolute inset-0 w-full h-full"
               style={{ border: 0 }}
               allowFullScreen

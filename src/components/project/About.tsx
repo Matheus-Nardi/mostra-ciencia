@@ -22,7 +22,7 @@ export default function AboutEvent() {
           <div className="space-y-6 sm:space-y-8">
             <div ref={titleRef} className="space-y-4">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-balance font-montserrat leading-tight">
-                III Semana de <span className="text-primary">Ciência, Tecnologia e Inovação </span> da UNITINS
+                IX Mostra de <span className="text-primary">Ciência, Tecnologia</span> da UNITINS <span>Câmpus Augustinópolis e Araguatins</span>
               </h2>
 
               <motion.div
@@ -41,17 +41,14 @@ export default function AboutEvent() {
 
             <div className="space-y-4 sm:space-y-6 text-muted-foreground leading-relaxed">
               <p className="text-sm sm:text-base md:text-lg font-poppins pl-4 py-2">
-                A Universidade Estadual do Tocantins (Unitins) realizará, de 20 a 24 de outubro de 2025,
-                a III Semana de Ciência, Tecnologia e Inovação - SCTI, com o tema <strong className="text-primary">“Planeta Água: a cultura
-                oceânica para enfrentar as mudanças climáticas no meu território”</strong>. Integrando a Semana Nacional
-                de Ciência e Tecnologia, o evento reunirá estudantes, professores, pesquisadores e comunidade em
-                torno de palestras, oficinas, exposições e apresentações científicas, promovendo o diálogo entre ensino,
-                pesquisa e extensão.
+                A Universidade Estadual do Tocantins (Unitins) realiza nos dias 29 e 30 de outubro a IX Mostra de Ciência e Tecnologia dos Câmpus de Augustinópolis e Araguatins, 
+                ação vinculada à Jornada de Iniciação Científica da Unitins, e à 20ª Semana Nacional de Ciência e Tecnologia (SNCT/MCTI). 
+                O evento tem como objetivo promover o compartilhamento de conhecimentos produzidos nas pesquisas científicas desenvolvidas na universidade,
+                além de incentivar a integração entre estudantes, docentes e a comunidade externa.
               </p>
               <p className="text-sm sm:text-base md:text-lg font-poppins pl-4 py-2">
-                A iniciativa reforça o compromisso da Unitins com o desenvolvimento sustentável
-                e a disseminação do conhecimento, incentivando soluções inovadoras e o engajamento social em prol de um
-                futuro mais equilibrado para o Tocantins e para o Brasil!
+               Com o tema central <strong className="text-primary">"Planeta Água do Araguaia ao Tocantins: Saberes e Ciência em Defesa da Vida e da Sustentabilidade"</strong>, voltado à ciência, tecnologia e sustentabilidade, a mostra conta com oficinas, mesa-redonda, apresentações de trabalhos e premiação final,
+                oferecendo mais de 24 horas de programação científica no Câmpus Augustinópolis.
               </p>
             </div>
           </div>
