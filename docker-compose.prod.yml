@@ -1,0 +1,58 @@
+services:
+  # Aplicação Next.js
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: semana-tecnologia-app
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    networks:
+      - app-network
+    volumes:
+      - ./public:/app/public:ro
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Nginx como reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: semana-tecnologia-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./certbot/conf:/etc/letsencrypt:ro
+      - ./certbot/www:/var/www/certbot:ro
+    depends_on:
+      - nextjs
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "nginx", "-t"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Certbot para Let's Encrypt
+  certbot:
+    image: certbot/certbot
+    container_name: semana-tecnologia-certbot
+    restart: "no"
+    volumes:
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    command: certonly --webroot --webroot-path=/var/www/certbot --email seu-email@exemplo.com --agree-tos --no-eff-email -d unitinscti.com.br -d www.unitinscti.com.br
+
+networks:
+  app-network:
+    driver: bridge

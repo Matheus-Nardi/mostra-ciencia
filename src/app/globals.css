@@ -1,0 +1,530 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-poppins);
+  --font-mono: var(--font-montserrat);
+  --font-heading: var(--font-montserrat);
+  --font-dm-sans: var(--font-dm-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* Cores base - tema Planeta Água */
+  --background: #ffffff;
+  --foreground: #0F3057;
+  /* Cinza-azulado profundo */
+
+  /* Cards e superfícies */
+  --card: #ffffff;
+  --card-foreground: #0F3057;
+  --popover: #ffffff;
+  --popover-foreground: #0F3057;
+
+  /* Primary - Azul oceano */
+  --primary: #083D77;
+  /* Azul-escuro oceano */
+  --primary-foreground: #ffffff;
+
+  /* Secondary - Azul claro aquático */
+  --secondary: #E3F5FF;
+  /* Derivado do azul-celeste */
+  --secondary-foreground: #083D77;
+
+  /* Muted - Tons suaves de água */
+  --muted: #F0F9FF;
+  --muted-foreground: #0F3057;
+
+  /* Accent - Azul vibrante do mar */
+  --accent: #38B6FF;
+  /* Azul-claro do mar */
+  --accent-foreground: #ffffff;
+
+  /* Destructive - Rosa coral */
+  --destructive: #FF4FA2;
+  /* Rosa-vivo dos corais */
+
+  /* Bordas e inputs - Tom oceânico suave */
+  --border: #B8E5FF;
+  /* Derivado do azul-celeste */
+  --input: #B8E5FF;
+  --ring: #38B6FF;
+  /* Azul-claro do mar */
+
+  /* Charts - Paleta oceânica */
+  --chart-1: #083D77;
+  /* Azul-escuro oceano */
+  --chart-2: #38B6FF;
+  /* Azul-claro do mar */
+  --chart-3: #4CD964;
+  /* Verde-terra */
+  --chart-4: #FF4FA2;
+  /* Rosa-vivo coral */
+  --chart-5: #FFD43B;
+  /* Amarelo solar */
+
+  /* Sidebar */
+  --sidebar: #F0F9FF;
+  --sidebar-foreground: #0F3057;
+  --sidebar-primary: #083D77;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #E3F5FF;
+  --sidebar-accent-foreground: #083D77;
+  --sidebar-border: #B8E5FF;
+  --sidebar-ring: #38B6FF;
+
+  /* Status colors - tema oceânico */
+  --success: #4CD964;
+  /* Verde-terra */
+  --success-foreground: #ffffff;
+  --warning: #FFD43B;
+  /* Amarelo solar */
+  --warning-foreground: #0F3057;
+  --info: #4FD1FF;
+  /* Azul-celeste */
+  --info-foreground: #ffffff;
+
+  /* Cores adicionais do tema */
+  --ocean-deep: #083D77;
+  --ocean-light: #38B6FF;
+  --ocean-sky: #4FD1FF;
+  --earth-green: #4CD964;
+  --forest-green: #2E8B57;
+  --coral-pink: #FF4FA2;
+  --coral-light: #FF70B8;
+  --magenta: #E83E8C;
+  --sun-yellow: #FFD43B;
+  --deep-shadow: #0F3057;
+}
+
+.dark {
+  /* Modo escuro - profundezas oceânicas */
+  --background: #0F3057;
+  /* Cinza-azulado (água profunda) */
+  --foreground: #F8FAFC;
+
+  --card: #083D77;
+  /* Azul-escuro oceano */
+  --card-foreground: #F8FAFC;
+  --popover: #083D77;
+  --popover-foreground: #F8FAFC;
+
+  --primary: #38B6FF;
+  /* Azul-claro do mar */
+  --primary-foreground: #0F3057;
+
+  --secondary: #1A4D6F;
+  --secondary-foreground: #4FD1FF;
+
+  --muted: #1A3A54;
+  --muted-foreground: #B8E5FF;
+
+  --accent: #4FD1FF;
+  /* Azul-celeste */
+  --accent-foreground: #0F3057;
+
+  --destructive: #FF70B8;
+  /* Rosa-claro coral */
+
+  --border: #1A4D6F;
+  --input: #1A4D6F;
+  --ring: #4FD1FF;
+
+  --chart-1: #38B6FF;
+  --chart-2: #4FD1FF;
+  --chart-3: #4CD964;
+  --chart-4: #FF4FA2;
+  --chart-5: #FFD43B;
+
+  --sidebar: #083D77;
+  --sidebar-foreground: #F8FAFC;
+  --sidebar-primary: #4FD1FF;
+  --sidebar-primary-foreground: #0F3057;
+  --sidebar-accent: #1A4D6F;
+  --sidebar-accent-foreground: #B8E5FF;
+  --sidebar-border: #1A4D6F;
+  --sidebar-ring: #4FD1FF;
+
+  --success: #4CD964;
+  --success-foreground: #0F3057;
+  --warning: #FFD43B;
+  --warning-foreground: #0F3057;
+  --info: #4FD1FF;
+  --info-foreground: #0F3057;
+
+  /* Cores adicionais do tema (dark) */
+  --ocean-deep: #083D77;
+  --ocean-light: #38B6FF;
+  --ocean-sky: #4FD1FF;
+  --earth-green: #4CD964;
+  --forest-green: #2E8B57;
+  --coral-pink: #FF4FA2;
+  --coral-light: #FF70B8;
+  --magenta: #E83E8C;
+  --sun-yellow: #FFD43B;
+  --deep-shadow: #0A1F3D;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-poppins);
+  }
+
+  /* Fontes personalizadas */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-montserrat);
+  }
+
+  p,
+  span,
+  div {
+    font-family: var(--font-poppins);
+  }
+
+  /* Smooth scrolling with respect for reduced motion preference */
+  html {
+    scroll-behavior: smooth;
+    font-size: 90%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Improved focus styles for better accessibility */
+  *:focus-visible {
+    outline: 2px solid hsl(var(--primary));
+    outline-offset: 2px;
+  }
+
+  /* Skip to content link - visually hidden but accessible */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .sr-only:focus,
+  .sr-only:active {
+    position: fixed;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
+  /* Oculta a barra de rolagem mantendo a rolagem funcional */
+  html,
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: none;
+    scrollbar-gutter: stable both-edges;
+    -ms-overflow-style: none; /* IE/Edge Legacy */
+    scrollbar-width: none; /* Firefox */
+  }
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  /* Scrollbar invisível no WebKit */
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 0;
+    border: none;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
+
+  /* Better text selection */
+  ::selection {
+    background-color: hsl(var(--primary) / 0.3);
+    color: hsl(var(--foreground));
+  }
+
+  /* Ensure minimum touch target size for mobile */
+  button,
+  a,
+  input[type="button"],
+  input[type="submit"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-montserrat);
+  }
+
+  .font-body {
+    font-family: var(--font-poppins);
+  }
+
+  .font-dm-sans {
+    font-family: var(--font-dm-sans);
+  }
+
+  /* Animation utilities */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+    opacity: 0;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 0.4s;
+  }
+
+  .animation-delay-600 {
+    animation-delay: 0.6s;
+  }
+
+  .animation-delay-800 {
+    animation-delay: 0.8s;
+  }
+
+  .animate-scroll {
+    animation: scroll 2s ease-in-out infinite;
+  }
+
+  .delay-1000 {
+    animation-delay: 1s;
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Gradient backgrounds - tema Planeta Água */
+.bg-gradient-1 {
+  background: linear-gradient(135deg, #ffffff 0%, #F0F9FF 100%);
+}
+
+.bg-gradient-2 {
+  background: linear-gradient(135deg, #F0F9FF 0%, #E3F5FF 100%);
+}
+
+.bg-gradient-3 {
+  background: linear-gradient(135deg, #E3F5FF 0%, #ffffff 100%);
+}
+
+.bg-gradient-4 {
+  background: linear-gradient(135deg, #ffffff 0%, rgba(56, 182, 255, 0.1) 100%);
+}
+
+.bg-gradient-5 {
+  background: linear-gradient(135deg, rgba(79, 209, 255, 0.2) 0%, #F0F9FF 100%);
+}
+
+.bg-gradient-soft-primary {
+  background: linear-gradient(135deg, rgba(8, 61, 119, 0.05) 0%, rgba(227, 245, 255, 0.8) 100%);
+}
+
+.bg-gradient-soft-secondary {
+  background: linear-gradient(135deg, #ffffff 0%, rgba(227, 245, 255, 0.4) 50%, #F0F9FF 100%);
+}
+
+/* Novos gradientes oceânicos */
+.bg-gradient-ocean {
+  background: linear-gradient(135deg, #083D77 0%, #38B6FF 100%);
+}
+
+.bg-gradient-ocean-light {
+  background: linear-gradient(135deg, #38B6FF 0%, #4FD1FF 100%);
+}
+
+.bg-gradient-coral {
+  background: linear-gradient(135deg, #FF4FA2 0%, #FF70B8 100%);
+}
+
+.bg-gradient-earth {
+  background: linear-gradient(135deg, #2E8B57 0%, #4CD964 100%);
+}
+
+.bg-gradient-underwater {
+  background: linear-gradient(180deg, #4FD1FF 0%, #083D77 100%);
+}
+
+.bg-gradient-sunrise {
+  background: linear-gradient(135deg, #FFD43B 0%, #FF4FA2 50%, #38B6FF 100%);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+@keyframes ken-burns {
+
+  0%,
+  100% {
+    transform: scale(1.05);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@layer components {
+
+  /* Suas classes de acessibilidade */
+  .focus-ring:focus-visible {
+    @apply ring-2 ring-primary ring-offset-2 outline-none;
+  }
+
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+
+  /* Padding para áreas seguras em celulares (notch, etc.) */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  /* Animação de entrada para os itens do menu */
+  .animate-slide-in-right {
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+  /* Definição da animação (Keyframes) */
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}
