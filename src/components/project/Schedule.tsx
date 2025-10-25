@@ -234,7 +234,7 @@ export default function Schedule() {
     : [];
 
   // Visualização: por eixo (agrupada) ou por dia (cronológica)
-  const [viewMode, setViewMode] = useState<"grouped" | "daily">("grouped");
+  const [viewMode, setViewMode] = useState<"daily">("daily");
 
   // Parser para horário (minutos desde 00:00)
   const parseStartMinutes = (horario: string): number => {
@@ -364,98 +364,7 @@ export default function Schedule() {
                 </div>
 
                 {/* Cards de Eventos / Visualização */}
-                {viewMode === "grouped" ? (
-                  <Accordion type="single" collapsible className="space-y-3 sm:space-y-4">
-                    {day.events.map((event) => {
-                      const colors = getEventColors(event.name);
-                      return (
-                        <AccordionItem
-                          key={event.id}
-                          value={event.id}
-                          className={`border-none rounded-xl overflow-hidden ${colors.secondary}`}
-                        >
-                          <Card className={`border-l-4 ${colors.accent} hover:shadow-lg transition-all duration-300 bg-transparent`}>
-                            <AccordionTrigger className="hover:no-underline p-0 [&[data-state=open]_.chevron]:rotate-180 [&>svg]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-inset">
-                              <CardHeader className={`py-4 sm:py-5 px-4 sm:px-6 w-full flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0 sm:space-y-0`}>
-                                <CardTitle className={`text-base sm:text-lg font-semibold ${colors.text} text-left pr-2 sm:pr-4 font-montserrat leading-snug`}>
-                                  {event.name}
-                                </CardTitle>
-                                <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0 w-full sm:w-auto justify-end">
-                                  <span className={`text-xs text-white ${colors.primary} px-2 sm:px-3 py-1 sm:py-1.5 rounded-full font-medium shadow-sm min-w-[90px] sm:min-w-[110px] text-center`}>
-                                    {event.talks.length} {event.talks.length === 1 ? "atividade" : "atividades"}
-                                  </span>
-                                  <svg
-                                    className={`chevron w-5 h-5 ${colors.text} transition-transform duration-200 flex-shrink-0`}
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                    aria-hidden="true"
-                                  >
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                  </svg>
-                                </div>
-                              </CardHeader>
-                            </AccordionTrigger>
-
-                            <AccordionContent>
-                              <CardContent className="pt-0 pb-4 sm:pb-6 px-4 sm:px-6 space-y-2 sm:space-y-3">
-                                {event.talks.map((talk, index) => (
-                                  <div
-                                    key={`${event.id}-talk-${index}`}
-                                    className={`flex flex-col sm:flex-row items-start justify-between gap-3 sm:gap-4 p-3 sm:p-4 bg-white rounded-lg border ${colors.accent} hover:shadow-md transition-all duration-300`}
-                                  >
-                                    {/* Conteúdo Principal */}
-                                    <div className="flex-1 min-w-0 w-full space-y-2">
-                                      <h5 className="font-semibold text-foreground text-sm sm:text-base font-montserrat leading-tight">
-                                        {talk.titulo}
-                                      </h5>
-                                      {talk.palestrante !== "" && (
-                                        <p className="text-xs sm:text-sm text-muted-foreground font-poppins">
-                                          <strong>Palestrante:</strong> {talk.palestrante}
-                                        </p>
-                                      )}
-                                      <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-xs sm:text-sm text-muted-foreground flex-wrap">
-                                        <div className="flex items-center gap-2">
-                                          <MapPin className={`w-3 h-3 sm:w-4 sm:h-4 ${colors.text} flex-shrink-0`} aria-hidden="true" />
-                                          <span>{talk.local}</span>
-                                          {talk.meetLink && (
-                                            <a
-                                              href={talk.meetLink}
-                                              target="_blank"
-                                              rel="noopener noreferrer"
-                                              className="text-primary hover:underline inline-flex items-center gap-1 text-xs sm:text-sm font-medium"
-                                            >
-                                              <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" aria-hidden="true" />
-                                              Acessar Meet
-                                            </a>
-                                          )}
-                                        </div>
-                                        {talk.vagas !== "Ilimitado" && talk.vagas !== "Não especificado" && talk.vagas !== "" && (
-                                          <div className="flex items-center gap-2">
-                                            <Users className={`w-3 h-3 sm:w-4 sm:h-4 ${colors.text} flex-shrink-0`} aria-hidden="true" />
-                                            <span>{talk.vagas} vagas</span>
-                                          </div>
-                                        )}
-                                      </div>
-                                    </div>
-
-                                    {/* Horário */}
-                                    <div className="flex-shrink-0 w-full sm:w-auto">
-                                      <div className={`flex items-center gap-1.5 ${colors.text} font-medium ${colors.secondary} px-3 py-2 rounded-lg border ${colors.accent} justify-center sm:justify-end`}>
-                                        <Clock className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" aria-hidden="true" />
-                                        <span className="text-xs sm:text-sm whitespace-nowrap">{talk.horario}</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                ))}
-                              </CardContent>
-                            </AccordionContent>
-                          </Card>
-                        </AccordionItem>
-                      );
-                    })}
-                  </Accordion>
-                ) : (
+                {viewMode === "daily" && (
                   <div className="space-y-3 sm:space-y-4">
                     {day.events
                       .flatMap((event) =>
@@ -480,6 +389,7 @@ export default function Schedule() {
                                 <h5 className="font-semibold text-foreground text-sm sm:text-base font-montserrat leading-tight">
                                   {item.talk.titulo}
                                 </h5>
+                             
                               </div>
                               {item.talk.palestrante !== "" && (
                                 <p className="text-xs sm:text-sm text-muted-foreground font-poppins">
@@ -502,20 +412,31 @@ export default function Schedule() {
                                     </a>
                                   )}
                                 </div>
-                                {item.talk.vagas !== "Ilimitado" && item.talk.vagas !== "Não especificado" && item.talk.vagas !== "" && (
+                                {item.talk.vagas && item.talk.vagas !== "ilimitada" && item.talk.vagas !== "Ilimitada" && !isNaN(Number(item.talk.vagas)) ? (
                                   <div className="flex items-center gap-2">
                                     <Users className={`w-3 h-3 sm:w-4 sm:h-4 ${colors.text} flex-shrink-0`} aria-hidden="true" />
                                     <span>{item.talk.vagas} vagas</span>
                                   </div>
+                                ) : (
+                                  <div className="flex items-center gap-2">
+                                    <Users className={`w-3 h-3 sm:w-4 sm:h-4 ${colors.text} flex-shrink-0`} aria-hidden="true" />
+                                    <span>Vagas ilimitadas</span>
+                                  </div>
                                 )}
+                                  
                               </div>
                             </div>
 
-                            <div className="flex-shrink-0 w-full sm:w-auto">
+                            <div className="flex-shrink-0 w-full sm:w-auto flex flex-col items-center gap-2">
                               <div className={`flex items-center gap-1.5 ${colors.text} font-medium ${colors.secondary} px-3 py-2 rounded-lg border ${colors.accent} justify-center sm:justify-end`}>
                                 <Clock className="w-3 h-3 sm:w-4 sm:h-4 flex-shrink-0" aria-hidden="true" />
                                 <span className="text-xs sm:text-sm whitespace-nowrap">{item.talk.horario}</span>
                               </div>
+                              {(item.eventName.includes('ABERTURA') || item.eventName.includes('ENCERRAMENTO')) && (
+                                <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-primary text-primary-foreground">
+                                  {item.eventName.includes('ABERTURA') ? 'Abertura' : 'Encerramento'}
+                                </span>
+                              )}
                             </div>
                           </div>
                         );
