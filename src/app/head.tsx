@@ -5,7 +5,7 @@ export default function Head() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     url: siteUrl,
-    name: 'III Semana de Ciência, Tecnologia e Inovação - UNITINS',
+    name: 'IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins',
     potentialAction: {
       '@type': 'SearchAction',
       target: `${siteUrl}/?q={search_term_string}`,
@@ -24,11 +24,11 @@ export default function Head() {
   const eventJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Event',
-    name: 'III Semana de Ciência, Tecnologia e Inovação - UNITINS',
+    name: 'IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins',
     description:
-      'A Universidade Estadual do Tocantins (Unitins) realizará, de 20 a 24 de outubro de 2025, a III Semana de Ciência, Tecnologia e Inovação - SCTI, com o tema “Planeta Água: a cultura oceânica para enfrentar as mudanças climáticas no meu território”. Integrando a Semana Nacional de Ciência e Tecnologia, o evento reunirá estudantes, professores, pesquisadores e comunidade em torno de palestras, oficinas, exposições e apresentações científicas.',
-    startDate: '2025-10-20',
-    endDate: '2025-10-24',
+      'A Universidade Estadual do Tocantins (Unitins) realizará, de 29 a 30 de outubro de 2025, a IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins, com o tema “Planeta Água: a cultura oceânica para enfrentar as mudanças climáticas no meu território”. Integrando a Semana Nacional de Ciência e Tecnologia, o evento reunirá estudantes, professores, pesquisadores e comunidade em torno de palestras, oficinas, exposições e apresentações científicas.',
+    startDate: '2025-10-29',
+    endDate: '2025-10-30',
     eventStatus: 'https://schema.org/EventScheduled',
     eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     url: siteUrl,

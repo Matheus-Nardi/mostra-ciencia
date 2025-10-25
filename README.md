@@ -1,6 +1,6 @@
-# III Semana de Tecnologia - Frontend
+# IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins - Frontend
 
-Este repositório contém o frontend oficial da III Semana de Ciência, Tecnologia e Inovação da UNITINS.
+Este repositório contém o frontend oficial da IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins.
 O projeto tem como objetivo oferecer uma interface moderna e intuitiva para que os usuários possam obter informações, acompanhar a programação e interagir com o evento de forma simples e acessível.
 ## Stack Utilizada
 

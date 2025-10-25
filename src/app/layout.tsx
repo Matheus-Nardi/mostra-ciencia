@@ -35,7 +35,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "III Semana de Ciência,Tecnologia e Inovação - UNITINS",
+  title: "IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins",
   description: "Evento acadêmico promovido pela Universidade Estadual do Tocantins (UNITINS) que reúne estudantes, pesquisadores e profissionais para discutir ciência, tecnologia e inovação.",
   icons:{
     icon: [
@@ -63,18 +63,18 @@ export const metadata: Metadata = {
     "Tocantins",
   ],
   openGraph: {
-    title: "III Semana de Ciência,Tecnologia e Inovação - UNITINS",
+    title: "IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins",
     description: "Evento acadêmico promovido pela Universidade Estadual do Tocantins (UNITINS)...",
     type: "website",
     url: "https://unitinscti.com.br/",
-    siteName: "III Semana de Ciência, Tecnologia e Inovação - UNITINS",
+    siteName: "IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins",
     locale: "pt_BR",
     images: [
       {
         url: "/logos/logo-snct.png",
         width: 1200,
         height: 630,
-        alt: "Logo da III Semana de Ciência, Tecnologia e Inovação - UNITINS"
+        alt: "Logo da IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins"
       }
     ], 
   },
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "III Semana de Ciência, Tecnologia e Inovação - UNITINS",
+    title: "IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins",
     description: "Evento acadêmico — palestras, oficinas, exposições e ciência aplicada.",
     images: ["/logos/logo-snct.png"],
   },

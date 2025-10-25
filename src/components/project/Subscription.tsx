@@ -44,7 +44,7 @@ export default function Subscription() {
             <Button
               size="lg"
               className="relative min-h-[56px] sm:min-h-[64px] bg-primary hover:bg-primary/90 focus-visible:bg-primary/90 text-white font-montserrat text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 shadow-md hover:shadow-lg focus-visible:shadow-lg transition-all duration-300 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
-              aria-label="Inscrever-se no evento da III Semana de Ciência, Tecnologia e Inovação"
+              aria-label="Inscrever-se no evento da IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins"
             >
               <span className="relative z-10 flex items-center gap-2">
                 Inscreva-se Agora

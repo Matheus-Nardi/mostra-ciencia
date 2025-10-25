@@ -35,7 +35,7 @@ export default function Footer() {
           {/* Sobre o Evento */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold font-montserrat" style={{ color: '#e2187f' }}>
-              III Semana de Tecnologia
+              IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins
             </h3>
             <p className="text-primary text-sm leading-relaxed font-poppins">
               Um evento dedicado a explorar as últimas tendências em tecnologia,
