@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: semana-tecnologia-app
+    container_name: mostra-ciencia-app
     restart: unless-stopped
     environment:
       - NODE_ENV=production
@@ -23,7 +23,7 @@ services:
   # Nginx como reverse proxy
   nginx:
     image: nginx:alpine
-    container_name: semana-tecnologia-nginx
+    container_name: mostra-ciencia-nginx
     restart: unless-stopped
     ports:
       - "80:80"
