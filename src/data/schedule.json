@@ -20,7 +20,8 @@
       "horario": "8h:30 - 11h:30",
       "local": "Google Via Meet",
       "palestrante": "Ministrante Prof. Me. Leonardo dos Santos Bandeira - Medidaora: Me. Prof.ª Ana Paula Monteiro de Oliveira",
-      "vagas": "100"
+      "vagas": "100",
+      "meetLink": "https://meet.google.com/awk-yart-vrw"
     },
     "Oficina Tema: Eletrocardiograma": {
       "titulo": "Oficina Tema: Eletrocardiograma",
@@ -34,21 +35,24 @@
       "horario": "8h:30 - 11h:30",
       "local": "Google Meet",
       "palestrante": "Ministrante: Profª. Me. Antônia Almeida Araújo e Mediador Me. Prof. Juan Pablo Do Nascimento Vale (UFMA)",
-      "vagas": "100"
+      "vagas": "100",
+      "meetLink": "https://meet.google.com/exv-ybkq-jaf"
     },
     "Oficina: Da Pergunta à Evidência: Estratégias Práticas de Busca Científica em Saúde": {
       "titulo": "Oficina: Da Pergunta à Evidência: Estratégias Práticas de Busca Científica em Saúde",
       "horario": "8h:30 - 11h:30",
       "local": "Google Meet",
       "palestrante": "Ministrante Prof.ª : Dra. Lunalva Aurélio Pedroso Sallet - Medidaora: Dr. Prof. Lucas dos Santos",
-      "vagas": "100"
+      "vagas": "100",
+      "meetLink": "https://meet.google.com/gwr-wgtu-tiz"
     },
     "Oficina: Zotero: Automatize suas Referências Bibliograficas": {
       "titulo": "Oficina: Zotero: Automatize suas Referências Bibliograficas",
       "horario": "14h - 17h",
       "local": "Google Meet",
       "palestrante": "Ministrante : Me. Prof. Juan Pablo Do Nascimento Vale (UFMA) e Mediadora: Profª. Me. Antônia Almeida Araújo e Mediador",
-      "vagas": "100"
+      "vagas": "100",
+      "meetLink": "https://meet.google.com/exv-ybkq-jaf"
     },
     "Oficina: Cuidados e Manejo em Laboratório de Cultura Celular aplicados à saúde.": {
       "titulo": "Oficina: Cuidados e Manejo em Laboratório de Cultura Celular aplicados à saúde.",
@@ -85,11 +89,12 @@
       "horario": "8h:30 - 11:30",
       "local": "Google Meet",
       "palestrante": "Ministrante: Prof.ª Dr. Orleane Evangelista de Santana e Prof.ª Me. Marisa de Sousa Brito",
-      "vagas": "100"
+      "vagas": "100",
+      "meetLink": "https://meet.google.com/sgi-egfr-dua"
     },
     "Oficina: O processo de cicatrização e os diversos tipos de curativos (passivos e ativos).": {
       "titulo": "Oficina: O processo de cicatrização e os diversos tipos de curativos (passivos e ativos).",
-      "horario": "8H:00 - 11h:30",
+      "horario": "8h:00 - 11h:30",
       "local": "Complexo de Ciências da Saúde CCS – Laboratório de Clínica Cirúrgicas",
       "palestrante": "Ministrante: Prof.ª Me.Vanessa Silva Souza",
       "vagas": "20"
@@ -106,14 +111,16 @@
       "horario": "9:00 - 11h:30",
       "local": "Google Meet",
       "palestrante": "Ministrante: Dr. Prof. Raimundo Carvalho Moura Filho e Medidaora: Maria Aparecida Da Silva",
-      "vagas": "100"
+      "vagas": "100",
+      "meetLink": " https://meet.google.com/wap-gbie-rxc"
     },
     "Oficina: Leitura Crítica e Interdisciplinaridade nas Ciências Humanas e Sociais: Direito, Sociedade e Sustentabilidade": {
       "titulo": "Oficina: Leitura Crítica e Interdisciplinaridade nas Ciências Humanas e Sociais: Direito, Sociedade e Sustentabilidade",
       "horario": "10h - 12h",
       "local": "Google Meet",
-      "palestrante": "Ministrante: Me. Prof.ª Fernanda Miler Lima Pintoe Medidaora: Jamille Alves dos Santos",
-      "vagas": "100"
+      "palestrante": "Ministrante: Me. Prof.ª Fernanda Miler Lima Pinto e Medidaora: Jamille Alves dos Santos",
+      "vagas": "100",
+      "meetLink": "https://meet.google.com/bpw-wswn-bie"
     }
   }
 }
