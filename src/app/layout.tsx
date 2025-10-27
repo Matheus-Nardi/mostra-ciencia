@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     ]
   },
   manifest: "/favicon_io/site.webmanifest",
-  metadataBase: new URL("https://unitinscti.com.br"),
+  metadataBase: new URL("https://mostrascti.com.br"),
   alternates: { canonical: "/" },
   keywords: [
     "Semana de Ciência e Tecnologia",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     title: "IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins",
     description: "Evento acadêmico promovido pela Universidade Estadual do Tocantins (UNITINS)...",
     type: "website",
-    url: "https://unitinscti.com.br/",
+    url: "https://mostrascti.com.br/",
     siteName: "IX Mostra de Ciência, Tecnologia da UNITINS Câmpus Augustinópolis e Araguatins",
     locale: "pt_BR",
     images: [

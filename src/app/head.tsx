@@ -1,5 +1,5 @@
 export default function Head() {
-  const siteUrl = "https://unitinscti.com.br"
+  const siteUrl = "https://mostrascti.com.br"
 
   const websiteJsonLd = {
     '@context': 'https://schema.org',

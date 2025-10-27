@@ -6,8 +6,8 @@
 set -e
 
 # Configurações padrão
-DOMAIN="unitinscti.com.br"
-EMAIL="admin@unitinscti.com.br"
+DOMAIN="mostrascti.com.br"
+EMAIL="admin@mostrascti.com.br"
 SETUP_SSL=false
 
 # Parse dos argumentos

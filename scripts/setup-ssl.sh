@@ -6,8 +6,8 @@
 set -e
 
 EMAIL=${1:-"italobeckmann@gmail.com"}
-DOMAIN="unitinscti.com.br"
-WWW_DOMAIN="www.unitinscti.com.br"
+DOMAIN="mostrascti.com.br"
+WWW_DOMAIN="www.mostrascti.com.br"
 
 echo "🚀 Iniciando configuração SSL para $DOMAIN"
 
