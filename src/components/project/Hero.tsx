@@ -67,7 +67,7 @@ export default function Hero() {
         // Vídeo apenas para mobile 
        
         { type: 'image', src: 'https://images.pexels.com/photos/3825578/pexels-photo-3825578.jpeg', alt: 'Ciência (mobile)' },
-          { type: 'image', src: ' https://images.pexels.com/photos/4145356/pexels-photo-4145356.jpeg', alt: ' Criança no vr (mobile)' },
+        { type: 'image', src: 'https://images.pexels.com/photos/4145356/pexels-photo-4145356.jpeg', alt: 'Criança no vr (mobile)' },
         { type: 'video', src: 'https://www.pexels.com/pt-br/download/video/17953524/', alt: 'Vídeo drone (mobile)', poster: 'https://images.pexels.com/photos/997134/pexels-photo-997134.jpeg' },
         { type: 'image', src: 'https://images.unsplash.com/photo-1560260240-c6ef90a163a4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1331', alt: 'Oceano' },
         { type: 'image', src: 'https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg', alt: 'Imagem sobre o evento' },
