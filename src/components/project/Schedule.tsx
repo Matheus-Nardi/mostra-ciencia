@@ -151,8 +151,8 @@ const getEventColors = (eventName: string) => {
 };
 
 const dateMapping: Record<string, { date: string; dayOfWeek: string }> = {
-  "2025-10-29": { date: "29/10", dayOfWeek: "Segunda-feira" },
-  "2025-10-30": { date: "30/10", dayOfWeek: "Terça-feira" },
+  "2025-10-29": { date: "29/10", dayOfWeek: "Quarta-feira" },
+  "2025-10-30": { date: "30/10", dayOfWeek: "Quinta-feira" },
 };
 
 export default function Schedule() {
