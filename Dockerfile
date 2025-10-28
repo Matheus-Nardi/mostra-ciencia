@@ -12,6 +12,12 @@ RUN npm ci
 # Copia o código fonte
 COPY . .
 
+# Variáveis de ambiente de build para Next.js (Plausible)
+ARG NEXT_PUBLIC_PLAUSIBLE_DOMAIN
+ARG NEXT_PUBLIC_PLAUSIBLE_SRC
+ENV NEXT_PUBLIC_PLAUSIBLE_DOMAIN=$NEXT_PUBLIC_PLAUSIBLE_DOMAIN
+ENV NEXT_PUBLIC_PLAUSIBLE_SRC=$NEXT_PUBLIC_PLAUSIBLE_SRC
+
 # Build da aplicação Next.js
 RUN npm run build
 

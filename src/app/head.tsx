@@ -1,6 +1,9 @@
 export default function Head() {
   const siteUrl = "https://mostrascti.com.br"
 
+  const plausibleDomain = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN
+  const plausibleSrc = process.env.NEXT_PUBLIC_PLAUSIBLE_SRC || "https://plausible.io/js/script.js"
+
   const websiteJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -69,6 +72,11 @@ export default function Head() {
       <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="" />
       <link rel="preconnect" href="https://plus.unsplash.com" crossOrigin="" />
       <link rel="preconnect" href="https://images.pexels.com" crossOrigin="" />
+
+      {/* Plausible Analytics (carregado somente em produção se configurado) */}
+      {process.env.NODE_ENV === 'production' && plausibleDomain ? (
+        <script defer data-domain={plausibleDomain} src={plausibleSrc} />
+      ) : null}
 
       <script
         type="application/ld+json"
