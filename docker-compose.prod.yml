@@ -31,8 +31,10 @@ services:
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./nginx/auth/.htpasswd:/etc/nginx/.htpasswd:ro
       - ./certbot/conf:/etc/letsencrypt:ro
       - ./certbot/www:/var/www/certbot:ro
+      - nginx-logs:/var/log/nginx
     depends_on:
       - nextjs
     networks:
@@ -53,6 +55,28 @@ services:
       - ./certbot/www:/var/www/certbot
     command: certonly --webroot --webroot-path=/var/www/certbot --email seu-email@exemplo.com --agree-tos --no-eff-email -d mostrascti.com.br -d www.mostrascti.com.br
 
+  # GoAccess para analytics dos logs do Nginx
+  goaccess:
+    image: allinurl/goaccess:latest
+    container_name: mostra-ciencia-goaccess
+    restart: unless-stopped
+    depends_on:
+      - nginx
+    networks:
+      - app-network
+    volumes:
+      - nginx-logs:/var/log/nginx:ro
+    command: >
+      /bin/sh -c "touch /var/log/nginx/access.log && goaccess /var/log/nginx/access.log \
+      --real-time-html \
+      --port=7890 \
+      --date-format=\"%d/%b/%Y\" \
+      --time-format=\"%T\" \
+      --log-format=\"%h - %e [%d:%t %^] \"%r\" %s %b \"%R\" \"%u\" \"%^\"\""
+
 networks:
   app-network:
     driver: bridge
+
+volumes:
+  nginx-logs:
