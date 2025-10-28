@@ -1,7 +1,5 @@
 export default function Head() {
   const siteUrl = "https://mostrascti.com.br"
-  // Script custom do Plausible
-  const PLAUSIBLE_CUSTOM_SRC = "https://plausible.io/js/pa-5kNs5OySZtm12d4fKTzF7.js"
 
   const websiteJsonLd = {
     '@context': 'https://schema.org',
@@ -72,18 +70,7 @@ export default function Head() {
       <link rel="preconnect" href="https://plus.unsplash.com" crossOrigin="" />
       <link rel="preconnect" href="https://images.pexels.com" crossOrigin="" />
 
-      {/* Plausible Analytics (carregado somente em produção) */}
-      {process.env.NODE_ENV === 'production' && (
-        <>
-          <script async src={PLAUSIBLE_CUSTOM_SRC} />
-          <script
-            dangerouslySetInnerHTML={{
-              __html:
-                "window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init();",
-            }}
-          />
-        </>
-      )}
+      {/* Plausible é inicializado via pacote npm em componente client */}
 
       <script
         type="application/ld+json"
