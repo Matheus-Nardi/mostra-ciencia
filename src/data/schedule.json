@@ -54,13 +54,6 @@
       "vagas": "100",
       "meetLink": "https://meet.google.com/exv-ybkq-jaf"
     },
-    "Oficina: Cuidados e Manejo em Laboratório de Cultura Celular aplicados à saúde.": {
-      "titulo": "Oficina: Cuidados e Manejo em Laboratório de Cultura Celular aplicados à saúde.",
-      "horario": "15h - 17h",
-      "local": "Laboratório UNITINS - Microbiologia, Biofísica.",
-      "palestrante": "Ministrante Prof.ª : Dr. Maiara Bernardes Marques",
-      "vagas": "40"
-    },
     "Mesa Redonda: Tema: Modos de vida e crítica ao capitalismo em Ailton Krenak e Byung-Chul han: Natureza, alteridade e afeto como fundamentos existenciais": {
       "titulo": "Mesa Redonda: Tema: Modos de vida e crítica ao capitalismo em Ailton Krenak e Byung-Chul han: Natureza, alteridade e afeto como fundamentos existenciais",
       "horario": "15h - 17h",
@@ -121,6 +114,13 @@
       "palestrante": "Ministrante: Me. Prof.ª Fernanda Miler Lima Pinto e Medidaora: Jamille Alves dos Santos",
       "vagas": "100",
       "meetLink": "https://meet.google.com/bpw-wswn-bie"
+    },
+     "Oficina: Cuidados e Manejo em Laboratório de Cultura Celular aplicados à saúde.": {
+      "titulo": "Oficina: Cuidados e Manejo em Laboratório de Cultura Celular aplicados à saúde.",
+      "horario": "15h - 17h",
+      "local": "Laboratório UNITINS - Microbiologia, Biofísica.",
+      "palestrante": "Ministrante Prof.ª : Dr. Maiara Bernardes Marques",
+      "vagas": "40"
     }
   }
 }
