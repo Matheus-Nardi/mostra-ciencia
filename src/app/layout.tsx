@@ -14,6 +14,7 @@ import Subscription from "@/components/project/Subscription";
 import News from "@/components/project/News";
 import { ScrollToTop } from "@/components/ui/scroll-to-top";
 import ClientErrorHandler from "./client-error-handler";
+import PlausibleInit from "./plausible-init";
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
@@ -108,6 +109,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body
         className={`${montserrat.variable} ${poppins.variable} ${dmSans.variable} antialiased min-h-screen flex flex-col`}
       >
+        <PlausibleInit />
         <Header />
         <main id="main-content" className="flex-1">
           {children}

@@ -70,6 +70,8 @@ export default function Head() {
       <link rel="preconnect" href="https://plus.unsplash.com" crossOrigin="" />
       <link rel="preconnect" href="https://images.pexels.com" crossOrigin="" />
 
+      {/* Plausible é inicializado via pacote npm em componente client */}
+
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}

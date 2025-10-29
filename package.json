@@ -15,6 +15,7 @@
     "docker:rebuild": "docker-compose down && docker-compose build --no-cache && docker-compose up -d"
   },
   "dependencies": {
+    "@plausible-analytics/tracker": "^0.4.3",
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-hover-card": "^1.1.15",
     "@radix-ui/react-navigation-menu": "^1.2.14",
