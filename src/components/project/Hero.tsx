@@ -156,7 +156,7 @@ export default function Hero() {
                                     IX Mostra de
                                 </span>
                                 <span className="block text-3xl md:text-5xl lg:text-7xl font-light tracking-wide text-white">
-                                    Aula mailson 
+                                    Ciência e Tecnologia 
                                 </span>
                                 <span className="block text-3xl md:text-5xl lg:text-7xl" style={{ color: '#e2187f' }}>
                                    da UNITINS 
