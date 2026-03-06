@@ -280,40 +280,19 @@
     white-space: normal;
   }
 
-  /* Oculta a barra de rolagem mantendo a rolagem funcional */
   html,
   body {
+    max-width: 100%;
     overflow-x: hidden;
+  }
+
+  html {
     overflow-y: auto;
-    overscroll-behavior: none;
-    scrollbar-gutter: stable both-edges;
-    -ms-overflow-style: none; /* IE/Edge Legacy */
-    scrollbar-width: none; /* Firefox */
-  }
-  html::-webkit-scrollbar,
-  body::-webkit-scrollbar {
-    width: 0 !important;
-    height: 0 !important;
   }
 
-  /* Scrollbar invisível no WebKit */
-  ::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: transparent;
-    border-radius: 0;
-    border: none;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: transparent;
+  body {
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
   }
 
   /* Better text selection */

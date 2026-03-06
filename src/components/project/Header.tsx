@@ -35,12 +35,21 @@ function MobileMenuPanel({ isOpen, onClose }: { isOpen: boolean, onClose: () => 
     }, [isOpen, onClose]);
 
     useEffect(() => {
+        const previousBodyOverflow = document.body.style.overflow;
+        const previousHtmlOverflow = document.documentElement.style.overflow;
+
         if (isOpen) {
             document.body.style.overflow = 'hidden';
+            document.documentElement.style.overflow = 'hidden';
         } else {
-            document.body.style.overflow = 'auto';
+            document.body.style.overflow = '';
+            document.documentElement.style.overflow = '';
         }
-        return () => { document.body.style.overflow = 'auto'; };
+
+        return () => {
+            document.body.style.overflow = previousBodyOverflow;
+            document.documentElement.style.overflow = previousHtmlOverflow;
+        };
     }, [isOpen]);
 
     useEffect(() => {
